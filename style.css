@@ -1,0 +1,126 @@
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600px;
+}
+
+body {
+    display: flex;
+    width: 100%;
+align-items: center;
+flex-direction: column;
+margin: 0;
+}
+
+#input {
+
+border: 1px;
+border-style: solid;
+border-color: green;
+border-radius: 5px;
+display: flex;
+
+
+
+}
+
+input {
+    border-style: none;
+    width: 650px;
+    height: 35px;
+    border-radius: 5px;
+    outline-width: 0;
+    font-size: 18px;
+}
+
+#add {
+    outline-width: 0;
+    background-color: transparent;
+    border: none;
+    border-left: green;
+    font-size: 16px;
+    color: green;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#list {
+margin-top: 50px;
+    width: 730px;
+    margin-bottom: 50px;
+    
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.actions{
+
+    background-color: transparent;
+    border-style: none;   
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.check {
+    color: green;
+
+}
+
+.delete {
+    color: red;
+}
+
+.edit{
+    color: blue;
+}
+
+#clear {
+
+    border-style: solid;
+    background-color: transparent;
+    border-color: green;
+    font-size: 16px;
+    color: green;
+    border-radius:5px;
+    cursor: pointer;
+    border-width: 1px;
+    padding: 12px;
+
+}
+
+#filters{
+    display: flex;
+    border-style: solid;
+    border-color: green;
+    border-radius:5px;
+    border-width: 1px;
+    margin: 20px;
+}
+
+
+ .filter{
+    outline-width: 0;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: green;
+    cursor: pointer;
+}
+
+ #uncomplited{
+border-width: 1px;
+border-right-style: solid;
+border-left-style: solid;
+border-color: green;
+}
+
+.active-filter{
+    background: lightgreen;
+}

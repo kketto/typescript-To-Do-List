@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Keto's To Do List</title>
+</head>
+
+<body>
+
+    <h1>Keto's To Do List</h1>
+
+    <div id="input">
+        <input id="text" onkeyup="enterOn(event)" type="text">
+        <button onclick="add()" id="add" type="submit">Add Item</button>
+    </div>
+
+    <div id="filters">
+        <button class="filter active-filter" id="all" onclick="allin()">All</button>
+        <button class="filter" id="uncomplited" onclick="uncomplited()">Uncomplited</button>
+        <button class="filter" id="done" onclick="done()">Done</button>
+    </div>
+
+    <div id="list">
+    </div>
+
+    <div id="paginator"></div>
+
+    <button type="reset" id="clear" onclick="onClear()">Clear All</button>
+
+
+
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
